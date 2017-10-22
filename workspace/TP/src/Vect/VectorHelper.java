@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 /**
  * @author sara
- *
+ * Binome : Mehenni/Slatnia
+ * TP : Module IGL 
  */
 
 public class VectorHelper {
@@ -15,11 +16,12 @@ public class VectorHelper {
 	
 	
 	/************************METHODE TRIER_VECT***********************************/
+	
+	 
 	/**
-	 * cette methode  permet de trier un vecteur en ordre croissant de ses elements et retourne le tableau trié
+	 *  VectorHelpere() est un constructeur sans parametre qui donne des valeurs a notre tableau 
 	 */
-	 
-	 
+	
 	public VectorHelper(){
 		 this.vect[0]=5;
 		 this.vect[1]=6;
@@ -33,7 +35,10 @@ public class VectorHelper {
 		 this.vect[9]=12;
 		
 	}
-	
+	/**
+	 * cette methode  permet de trier un vecteur en ordre croissant
+	 *  de ses elements et retourne le tableau trié
+	 */
 	public void Trier_Vect(){
 		
 		int i=0;

@@ -4,8 +4,13 @@ package Vect;
 
 /**
  * @author sara
+ * Binome : MehenniSlatnia
+ * Tp: IGL
+ * Ceci est une classe Driver : une classe teste mais qui n'est pas la classe de la partie teste 
  *
  */
+
+
 public class Driver {
 
 	/**
