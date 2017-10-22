@@ -13,10 +13,26 @@ public class VectorHelper {
 	
 	
 	
+	
 	/************************METHODE TRIER_VECT***********************************/
 	/**
 	 * cette methode  permet de trier un vecteur en ordre croissant de ses elements et retourne le tableau trié
 	 */
+	 
+	 
+	public VectorHelper(){
+		 this.vect[0]=5;
+		 this.vect[1]=6;
+		 this.vect[2]=2;
+	     this.vect[3]=3;
+	     this.vect[4]=15;
+	     this.vect[5]=4;
+		 this.vect[6]=8;
+	     this.vect[7]=9;
+		 this.vect[8]=7;
+		 this.vect[9]=12;
+		
+	}
 	
 	public void Trier_Vect(){
 		
@@ -27,7 +43,7 @@ public class VectorHelper {
 		
 	    
 	             while( i< vect.length-1){
-          	    	
+      	    	
 	    
 	                   if (vect[i]> vect[i+1]) { 
 	    
@@ -50,8 +66,19 @@ public class VectorHelper {
 	 * cette methode  permet de donner le maximum d'un tableau ainsi que son minimum en meme temps 
 	 */
 	
-	public void  MaxMin(){
-	int max; int min;
+	/**
+	 * @return
+	 */
+	/**
+	 * @param max representera le maximum de notre tableau
+	 * @param min representera le minimum de notre tableau
+	 * @return de  plus du message affichant simultanément le max et le min on retourne la somme de ces 2 derniers pour
+	 *  les testes
+	 */
+	public int  MaxMin(int max,int min){
+		
+		
+	
 	int k=1; int l=1;	
 	max=vect[0];
 	min=vect[0];
@@ -71,10 +98,10 @@ public class VectorHelper {
 	   
 	   
    }
-		
-		
 	System.out.println(" valeurrrr du maximumm est "+max);	
 	System.out.println(" valeurrrr du minimum   est "+min);	
+	return max+min;
+
 	
 	
 		

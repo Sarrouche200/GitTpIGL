@@ -18,19 +18,10 @@ public class Driver {
 		// TODO Auto-generated method stub
 		
 		 VectorHelper tab1 = new VectorHelper(); 
-		 tab1.vect[0]=5;
-		 tab1.vect[1]=6;
-		 tab1.vect[2]=2;
-	     tab1.vect[3]=3;
-         tab1.vect[4]=15;
-         tab1.vect[5]=4;
-		 tab1.vect[6]=8;
-	     tab1.vect[7]=9;
-		 tab1.vect[8]=7;
-		 tab1.vect[9]=12;
+		
 																 
 		
-		 int i =0; int j=0; 
+		 int i =0; int j=0;  int mx=0 , min=0;
 		 
 		
 		
@@ -46,8 +37,8 @@ public class Driver {
 		 
 		 
 		 
-		 tab1.MaxMin();
-		 
+		
+		 System.out.println(" LAAAAAA MAX MINI"+ tab1.MaxMin(mx,min));
 		
 		 tab1.Trier_Vect();
 		 
