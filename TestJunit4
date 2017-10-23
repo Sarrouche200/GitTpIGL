@@ -1,0 +1,65 @@
+package testess;
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.Assert;
+import Vect.*;
+/**
+ * @author sara
+ * Binome :Mehenni Slatnia
+ * TP : IGL
+ * ceci est la classe de la partie teste qui effectue tous les testes 
+ */
+public class testeJunit4 {
+	
+
+	
+
+
+	
+		 
+	    /**
+	     * @throws Exception 
+	     * testTrier permet de tester si notre methode retourner le bon resultat ou pas
+	     * testTrier verifie grace a la méthode assertArrayEquals si le tableau trié est le bon 
+	     */
+	    @Test
+		public void testTrier_Vect() throws Exception {
+	    	VectorHelper tabtri = new VectorHelper();
+	    	int tableau[] = {2,3,4,5,6,7,8,9,12,15};
+	    	int tableau1[] = {2,3,4,5,6,7,8,9,12,15};
+	    	
+			//fail("Not yet implemented");
+			
+	                tabtri.Trier_Vect();
+	                assertArrayEquals(tabtri.vect,tableau);
+	                
+	               
+		} 
+	    /**
+	     * @throws Exception 
+	     * testMaxMin verifie si la methode MaxMin retourner les bonnes valeaures du maximum et du minimum 
+	     */
+	    @Test
+	    public void testMaxMin() throws Exception {
+	    	VectorHelper tab1 = new VectorHelper();
+	    	int maxi; int mini;  int somme;
+	    	maxi = 15;
+	        mini=2;   
+	        somme= maxi+mini; 
+	        
+	        assertEquals(tab1.MaxMin(0,0), somme);
+	    }
+	    
+	    
+		  
+		
+
+	}
+
+
+
+
