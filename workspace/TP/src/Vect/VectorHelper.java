@@ -103,7 +103,7 @@ public class VectorHelper {
 	   
 	   
    }
-	System.out.println(" valeurrrr du maximumm est "+max);	
+	System.out.println(" valeur barrkkkk t3 lmax = "+max);	
 	System.out.println(" valeurrrr du minimum   est "+min);	
 	return max+min;
 
