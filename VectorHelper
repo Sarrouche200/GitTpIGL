@@ -36,7 +36,7 @@ public class VectorHelper {
 		
 	}
 	/**
-	 * cette methode  permet de trier un vecteur en ordre croissant
+	 * cette methode  permet de trier un vecteur en ordre croissant ( ordre )
 	 *  de ses elements et retourne le tableau trié
 	 */
 	public void Trier_Vect(){
